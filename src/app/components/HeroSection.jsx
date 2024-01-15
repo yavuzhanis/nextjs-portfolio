@@ -10,7 +10,7 @@ const HeroSection = () => {
         <section>
             <div className='grid grid-cols-1 sm:grid-cols-12'>
                 <div className="col-span-7 place-self-center text-center sm:text-left">
-                    <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font font-extrabold '><span className='text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-gray-400'>Hello I'm {""}</span>
+                    <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font font-extrabold '><span className='text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-gray-400'>Hello I&apos;m {""}</span>
                         <br />
                         <TypeAnimation
                             sequence={[
@@ -30,7 +30,7 @@ const HeroSection = () => {
                         />
 
                     </h1>
-                    <p className='text-[#a9c5b5] text-base sm:text-lg lg:text-xl mb-6  '>  I am a full stack web developer with a passion for creating
+                    <p className='text-[#a9c5b5] text-base sm:text-lg lg:text-xl mb-6'>  I am a full stack web developer with a passion for creating
                         interactive and responsive web applications.</p>
                     <div>
                         <Link
